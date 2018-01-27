@@ -1,0 +1,134 @@
+{
+authorship:
+	{
+		{name: "sjschen", weight: "1.0"},
+		{name: "Randall Munroe", weight: "1.0"},
+		{name: "Ellen, Senior Reactor Operator at the Reed Research Reactor", weight: "1.0"}
+	}
+data: [
+		{
+			dosage: "0.00002",
+			timePeriod: "1h",
+			description: "One hour dose limit for a member of the public from non medical sources",
+			interest: "0",,
+			source: [
+				{statement: "(2) The dose in any unrestricted area from external sources, exclusive of the dose contributions from patients administered radioactive material and released in accordance with § 35.75, does not exceed 0.002 rem (0.02 millisievert) in any one hour.", source: "nrc1301"}
+			]
+		},
+		{
+			dosage: "0.001",
+			timePeriod: "1y",
+			description: "One year dose limit for a member of the public",
+			interest: "0",
+			source: [
+				{statement: "(1) The total effective dose equivalent to individual members of the public from the licensed operation does not exceed 0.1 rem (1 mSv) in a year, exclusive of the dose contributions from background radiation, from any administration the individual has received, from exposure to individuals administered radioactive material and released under § 35.75, from voluntary participation in medical research programs, and from the licensee's disposal of radioactive material into sanitary sewerage in accordance with § 20.2003, and", source: "nrc1301"}
+			] 
+		},
+		{
+			dosage: "0.05",
+			timePeriod: "1y",
+			description: "Radiation worker one year dose limit",
+			interest: "0",
+			source: [
+				{statement: "(i) The total effective dose equivalent being equal to 5 rems (0.05 Sv)", source: "nrc1201"}
+			]
+		},
+		{
+			dosage: "0.005",
+			timePeriod: "1y",
+			description: "One year dose limit for radiation workers who are minors",
+			interest: "2",
+			source: [
+				{statement: "The annual occupational dose limits for minors are 10 percent of the annual dose limits specified for adult workers in § 20.1201.", source: "nrc1207"}
+			]
+		},
+		{
+			dosage: "0.005",
+			timePeriod: "0.75y",
+			description: "Full-term human fetus dose limit",
+			interest: "1",
+			source: [
+				{statement: "(a) The licensee shall ensure that the dose equivalent to the embryo/fetus during the entire pregnancy, due to the occupational exposure of a declared pregnant woman, does not exceed 0.5 rem (5 mSv). (For recordkeeping requirements, see § 20.2106.)", source: "nrc1208"}
+			]
+		},
+		{
+			dosage: "0.001",
+			timePeriod: "1h",
+			description: "One hour dose limit for individials in restricted high radiation areas",
+			interest: "2",
+			source: [
+				{statement: "(1) A control device that, upon entry into the area, causes the level of radiation to be reduced below that level at which an individual might receive a deep-dose equivalent of 0.1 rem (1 mSv) in 1 hour at 30 centimeters from the radiation source or from any surface that the radiation penetrates;", source: "nrc16"}
+			]
+		},
+		{
+			dosage: "",
+			timePeriod: "",
+			description: "",
+			interest: "0",
+			source: [
+				{statement: "", source: "ne-ema"}
+			]
+		},
+		{
+			dosage: "",
+			timePeriod: "",
+			description: "",
+			interest: "0",
+			support: [
+				{statement: "", source: "nrctritium"}
+			]
+		},
+		{
+			dosage: "",
+			timePeriod: "",
+			description: "",
+			interest: "0",
+			support: [
+				{statement: "", source: "nrcbio"}
+			]
+		}
+	],
+	citations: [
+			{
+				name: "nrc1301",
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Fcfr%2Fpart020%2Fpart020-1301.html",
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "nrc1201",
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Fcfr%2Fpart020%2Fpart020-1201.html",
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "nrc1207",
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Fcfr%2Fpart020%2Fpart020-1207.html"
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "nrc1208",
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Fcfr%2Fpart020%2Fpart020-1208.html",
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "nrc16",
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Fcfr%2Fpart020%2Fpart020-1601.html",
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "nrcbio"
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Ffact-sheets%2Fbio-effects-radiation.html",
+				accessDate: "2018-01-27"				
+			},
+			{
+				name: "nrctritium",,
+				url:"https%3A%2F%2Fwww.nrc.gov%2Freading-rm%2Fdoc-collections%2Ffact-sheets%2Ftritium-radiation-fs.html",
+				accessDate: "2018-01-27"
+			},
+			{
+				name: "ne-nema",
+				url:"https%3A%2F%2Fnema.nebraska.gov%2Ftech-hazard%2Fradiation-dose-limits",
+				accessDate: "2018-01-27"
+			}
+	
+	]
+}
